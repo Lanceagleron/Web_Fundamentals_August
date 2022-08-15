@@ -1,0 +1,13 @@
+1. We make a HTTP request to a website: Example --> Amazon.com
+
+2. We get back a response from the web server thjat amazon.com is associated with
+
+3. the response is a web page (front-end)
+
+4. A webpage consist of: HTML, CSS, JavaScript
+
+5. HTML = content of the page(Bold Text, regulat text, b uttons, form inpunts, images, hyperlinks).
+
+6 CSS = Styling of the content (layout, colors, making some content next to other content)
+
+7 JS = interactivity (clicking, hovering, scrolling, typing) between the user and webpage which result in modification of the HTML and CSS.

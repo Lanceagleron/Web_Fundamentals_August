@@ -1,0 +1,75 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: chocolate;
+    background-color: burlywood;
+    font-size: 50px;
+    text-align: center;
+}
+
+#slogan {
+    color: blue;
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: underline;
+
+}
+
+#fax    {
+    color: blue;
+}
+
+li {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+.CO {
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+button {
+    background-color: aquamarine;
+    font-size: 20px;
+    display: block;
+
+}
+
+#midbtn {
+    height: 100px;
+    width: 200px;
+}
+
+#troll {
+    height: 50px;
+    width: 50px;
+}
+
+.round-btn {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.shadow {
+    box-shadow: 10px 10px 10px black;
+}
+
+/*
+h1 is the selector
+
+color is the css property
+chocolate is the value
+color: chocolate; --> this combo of property + value = css rule
+make sure to add ; in each rule
+
+selectors: 
+select the whole element (example: p, h1, h3)-> will select all elements that are p, or h1, h3
+select only one element and apply some style to one elemnent only-> id
+select multiple elements and give multiple elements similar style-> class
+*/

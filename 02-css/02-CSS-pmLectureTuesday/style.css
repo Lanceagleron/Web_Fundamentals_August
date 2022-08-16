@@ -1,0 +1,103 @@
+*{
+    /* color: yellow; */
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* this says to include the padding and border in the calculation of the height */
+    font-family: monospace;
+}
+
+body {
+    background-color: aquamarine;
+    padding: 20px;
+    border: 5px solid pink;
+    
+}
+
+h1{
+    color: blue;
+    /* border: 1px solid black; */
+    margin-bottom: 15px;
+
+}
+
+.redFont {
+    color: red;
+}
+
+#Purple {
+    color: purple;
+}
+
+/* #header>p{
+    font-family: cursive;
+    font-size: 20px;
+}
+#header >p means select any p tag that is a direct child of #header
+#header p{
+    font-family: sans-serif;
+    font-size: 15px;
+} 
+#header p means select any p tag that is a descendant of #header*/
+
+#header {
+    border: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    height: 200px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+#slogan {
+    margin-bottom: 10px;
+}
+
+#header>button {
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#header > p {
+    line-height: 20px;
+}
+
+#left-bar {
+    height: 300px;
+    width: 150px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#main {
+    height: 500px;
+    background-color: brown;
+    width: 400px;
+    display: inline-block;
+    padding: 10px;
+    /* vertical-align: top; */
+}
+
+.blueBox  {
+    /* height: 100px;
+    width: 100px; */
+    padding: 5px;
+    background-color: blue;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.blueBox > img {
+    border-radius: 50%;
+}
+#info   {
+    background-color: deepskyblue;
+    margin-top: 30px;
+    height: 150px;
+}

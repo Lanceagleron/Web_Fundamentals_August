@@ -1,0 +1,44 @@
+*       {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    margin: 20px;
+}
+
+button  {
+    display: block;
+    margin: 10px;
+}
+
+#search {
+    width: 150px;
+    height: 30px;
+    color: gray;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid gray;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+#add    {
+    background-color: gray;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#create {
+    width: 200px;
+    height: 30px;
+    /* padding: 5px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+}

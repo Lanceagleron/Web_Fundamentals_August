@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: grey;
+    margin: 20px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 600px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+#banner {
+    height: 100px;
+    background-color: lightsteelblue;
+}
+
+#banner > img {
+    border: 2px double black;
+    height: 80px;
+    border-radius:  50%;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+#profile {
+    height: 150px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+#profile p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#profile img{
+    height: 15px;
+}

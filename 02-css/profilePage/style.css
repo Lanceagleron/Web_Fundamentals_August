@@ -51,14 +51,13 @@ body {
 
 .btn {
     /* border: 2px solid black; */
-    min-width: 80px;
+    min-width: 100px;
     background-color: rgb(23,162,184);
     color: white;
-    padding: 2px 5px;
     box-shadow: 2px 2px 3px black;
     font-weight: bold;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 

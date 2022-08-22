@@ -1,0 +1,136 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background-color: aqua;
+}
+
+#navbar {
+    border: 1px solid black;
+    /* height: 50px; */
+    min-width: auto;
+    margin: 0px 30px;
+    padding: 15px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar button  {
+    background-color: burlywood;
+    padding: 5px;
+    box-shadow: 1px 1px 2px black;
+}
+
+#searchbar  {
+    display: flex;
+    gap: 2px;
+}
+
+#flexbox    {
+    /* border: 1px solid black; */
+    /* height: 850px; */
+    display: flex;
+    justify-content: center;
+    margin: 10px 30px;
+}
+
+#col-left   {
+    /* border: 1px solid black; */
+    /* height: 100%; */
+    /* flex: 1; */
+    margin-right: 30px;
+}
+
+.puppyBox   {
+    border: 5px dotted black;
+    min-height: 30%;
+    max-width: 500px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.puppyBox button {
+    background-color: rgb(248, 220, 183);
+    margin-top: 15px;
+    padding: 5px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.puppyBox img   {
+    height: 100px;
+    width: 100px;
+}
+
+.puppyCard  {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+
+.col-right-box   {
+    border: 2px solid black;
+    /* height: 100%; */
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    font-size: 20px;
+    /* flex: 1; */
+}
+
+#col-right button   {
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color:coral;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 20px;
+}
+
+.col-right-box>video{
+    height: 150px;
+    margin: 10px 0px;
+}
+
+.col-right-box>em{
+    display: block;
+}
+
+#video-title    {
+    text-align: center;
+}
+
+#cookie-box     {
+    border: 3px solid black;
+    border-radius: 20px;
+    /* height: 100px; */
+    width: 90%;
+    position: fixed;
+    bottom: 20px;
+    background-color: rgba(166, 165, 165);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+#cookie-box>img {
+    height: 80px;
+}
+
+#cookie-box>button  {
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;;
+}

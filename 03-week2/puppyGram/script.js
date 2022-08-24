@@ -68,3 +68,16 @@ function increaseLikes(elementID){
 
     //document.querySelector("#"+ elementID).innertext = parseInt(document.querySelector("#"+ elementID).innertext)+1;
 }
+
+function searchPuppy(){
+    // console.log("searching for puppy named clifford");
+    let element = document.querySelector("#name-search");
+    alert("you searched for " + element.value);
+}
+
+function chooseLocation(element){
+    console.log("choosing a location!", element.value);
+    alert("You are searching for a dog in this location: " + element.value);
+
+    // alert(`You are searching for a dog in ${element.value}. Come by anytime!`)
+}

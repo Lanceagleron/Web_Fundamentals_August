@@ -32,14 +32,14 @@
                     <img src="./placeHolderImg.jpg" alt="">
                 </div>
                 <div id="profile">
-                    <h1>Lance Agleron</h1>
+                    <h1 id="name">John Doe</h1>
                     <h2><img src="./location_icon.png" alt="">San Jose</h2>
                     <p>Developer | Engineer | Problem Solver<br>
                         Master of Shadows and the Internet</p>
                     <div id="editprofile">
                         <p>
                             <img src="./cogwheel_icon.png" alt="">
-                            <a href="">
+                            <a href="#" onclick="changeName('name')">
                                 edit profile
                             </a>
                         </p>
@@ -63,15 +63,16 @@
 
             <div id="requestCard">
                 <div class="Header">
-                    <button id="small-btn">
+                    <span class="circle" id="totalRequest">
                         2
-                    </button>
+                    </span>
                     <h2>
                         Connection Request
                     </h2>
                 </div>
                 <div id="requestInfo">
-                    <div class="alignIt">
+                    <div class="alignIt" id="request1">
+                        
                         <div class="person">
                             <p>
                                 <img src="./placeHolderImg.jpg" alt="">
@@ -79,15 +80,18 @@
                             </p>
                         </div>
                         <div class="acceptReject">
-                            <button>
+                            <button
+                            onclick="acceptAsConnection('request1'); subtractRequest('totalRequest'); addConnection('totalConnections')">
                                 <img src="./checkMark.png" alt="">
                             </button>
-                            <button>
+                            <button 
+                            onclick="rejectConnection('request1'); subtractRequest('totalRequest')">
                                 <img src="./x.png" alt="">
                             </button>
                         </div>
                     </div>
-                    <div class="alignIt">
+
+                    <div class="alignIt" id="request2">
                         <div class="person">
                             <p>
                                 <img src="./placeHolderImg.jpg" alt="">
@@ -95,10 +99,10 @@
                             </p>
                         </div>
                         <div class="acceptReject">
-                            <button>
+                            <button onclick="acceptAsConnection('request2'); subtractRequest('totalRequest'); addConnection('totalConnections')">
                                 <img src="./checkMark.png" alt="">
                             </button>
-                            <button>
+                            <button onclick="rejectConnection('request2'); subtractRequest('totalRequest')">
                                 <img src="./x.png" alt="">
                             </button>
                         </div>
@@ -107,9 +111,9 @@
             </div>
             <div id="connectionCard">
                 <div class="Header">
-                    <button>
-                        500+
-                    </button>
+                    <span class="circle" id="totalConnections">
+                        418
+                    </span>
                     <h2>
                         Your Connection
                     </h2>
@@ -147,16 +151,18 @@
                             </p>
                         </div>
                     </div>
-                    <div class="alignIt" id="View_more" >
-                            <div class="person">
-                                <p>
-                                    <a href="">View More</a>
-                                </p>
-                            </div>
+                    <div class="alignIt" id="View_more">
+                        <div class="person">
+                            <p>
+                                <a href="">View More</a>
+                            </p>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
